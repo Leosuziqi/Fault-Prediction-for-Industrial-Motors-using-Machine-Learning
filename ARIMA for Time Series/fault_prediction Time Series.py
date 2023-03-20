@@ -17,6 +17,7 @@ train, test = data[0:train_size], data[train_size:len(data)]
 history = [x for x in train]
 predictions = list()
 
+# Rolling Forecast ARIMA Model
 for t in range(len(test)):
     model = ARIMA(history, order=(5,1,0))
     model_fit = model.fit()
@@ -31,3 +32,7 @@ from sklearn.metrics import mean_squared_error
 from math import sqrt
 rmse = sqrt(mean_squared_error(test, predictions))
 print('Test RMSE: %.3f' % rmse)
+
+pyplot.plot(test)
+pyplot.plot(predictions, color='red')
+pyplot.show()
