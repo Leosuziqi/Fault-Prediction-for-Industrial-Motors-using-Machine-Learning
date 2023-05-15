@@ -8,5 +8,5 @@ Exploratory data analysis is broadly applied to observe and visualize main chara
 
 Below is an example of Anomoly from a real case in practical, the oscillation of frequency of motor drive can be found. The purpose of the first part of work is to detect/predict oscillcation with ML tools.
 
-<p align="center"><img src="Oscillation.png"  width="800"></p>
+<p align="center"><img src="Marked Oscillation.png"  width="1000"></p>
 
