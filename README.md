@@ -10,3 +10,5 @@ Below is an example of Anomaly from a real case in practical, the oscillation of
 
 <p align="center"><img src="Marked Oscillation.png"  width="1000"></p>
 
+## Steps 2: Data cleaning and preparing
+The dataset includes motor currents, frequencies, and PID parameters for more than 40 motors in 1 year. it's inpossible to label all data. Therefore, we are going to use unsupervised ML methods, and only label ~30 anomaly cases to evalute the production's by models.
