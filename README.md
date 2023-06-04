@@ -1,6 +1,10 @@
 # Fault-Prediction-for-Industrial-Motors-using-Machine-Learning
 Predictive Maintenance of Induction Motors using Deep Learning Anomaly Detection using an Regression (Isolation Forest).
 
+When an anomaly occurs in the motor, there is a considerable amount of unplanned downtime. The purpose of this work is to develop a machine learning model that can anticipate when an industrial grade motor is likely to experience an anomalous behavior in the near future by detecting the anomaly in the available sensor data. 
+
+With this model in place, maintenance teams will have a powerful tool for staying ahead of potential problems and addressing them before they lead to costly unplanned downtime or equipment damage.
+
 ## Steps 1: EDA
 Exploratory data analysis is broadly applied to observe and visualize main characteristics of data.
 
